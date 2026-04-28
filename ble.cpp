@@ -94,7 +94,7 @@ void advertiseMeasurement(SensorData* data) {
   uint16_t siaq    = (uint16_t)(data->static_iaq);
   uint16_t co2_    = (uint16_t)(data->co2);
   uint16_t voc_    = (uint16_t)(data->voc * 100);
-  uint32_t millis_ = time_initialized ? (uint32_t)millis() : 0;
+  uint32_t ts      = time_initialized ? (uint32_t)time(nullptr) : 0;
   memcpy(payload + 0,  &temp,    2);
   memcpy(payload + 2,  &hum,     2);
   memcpy(payload + 4,  &pres,    2);
@@ -102,7 +102,7 @@ void advertiseMeasurement(SensorData* data) {
   memcpy(payload + 8,  &siaq,    2);
   memcpy(payload + 10, &co2_,    2);
   memcpy(payload + 12, &voc_,    2);
-  memcpy(payload + 14, &millis_, 4);
+  memcpy(payload + 14, &ts, 4);
 
   String mfr;
   mfr += (char)0xFF;

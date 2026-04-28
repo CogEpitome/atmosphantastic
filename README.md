@@ -11,7 +11,7 @@ This repo was made with next to no LLM help as it's a learning project, and the 
 
 | | |
 |---|---|
-| <img width="422" height="316" alt="image" src="https://github.com/user-attachments/assets/d6839243-dac9-4010-8740-f53e78ea259f" /> | <img width="203" height="323" alt="atmosphantastic" src="https://github.com/user-attachments/assets/24642ff6-c4bc-4f45-ab09-9bfaf595982d" /> |
+| <img width="301" height="473" alt="Namnlös" src="https://github.com/user-attachments/assets/0ce87519-eb0e-4fb0-9179-27bd9af8f517" /> | <img width="203" height="323" alt="atmosphantastic" src="https://github.com/user-attachments/assets/24642ff6-c4bc-4f45-ab09-9bfaf595982d" /> |
 
 ## Light sleep
 

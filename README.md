@@ -1,5 +1,7 @@
 # ATMOSPHANTASTIC
 
+Note: This repo is for archival purposes, it's not intended for use.
+
 A hobby project for personal use. Built with an ESP32-C3-Zero, BME680 sensor, scraps, and powered by 3x AAA batteries (I know, I know...).
 Uses the Bosch BM68x sensor library to parse measurement data. Light sleep mode to conserve battery. BLE for syncing and broadcasting data.
 

@@ -35,9 +35,9 @@ History can be requested by writing to a characteristic, whereupon it's transmit
 
 ## Limitations and improvements
 
-There's no security so anyone can connect, read data, and update the time.
-The AAA batteries in series is obviously not the best setup. I'd have liked to use a rechargable 3.7V li-ion battery.
-It would be nice with a battery charge indicator.
-It would also be neat to have a case for the electronics and skip the whole temporary breadboard setup.
-The frontend and rust "server" is a mess, made only as proof of concept.
-A little OLED screen to show the latest measurement would be neat.
+- There's no security so anyone can connect, read data, and update the time.
+- The AAA batteries in series is obviously not the best setup. I'd have liked to use a rechargable 3.7V li-ion battery.
+- It would be nice with a battery charge indicator.
+- It would also be neat to have a case for the electronics and skip the whole temporary breadboard setup.
+- The frontend and rust "server" is a mess, made only as proof of concept.
+- A little OLED screen to show the latest measurement would be neat.
